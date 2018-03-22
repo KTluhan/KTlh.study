@@ -62,8 +62,3 @@ var MyTitle = React.createClass({
         return <h1> {this.props.title} </h1>;
     }
 });
-
-ReactDOM.render(
-<MyTitle title={data} />,
-document.getElementById('demo6')
-);
